@@ -38,10 +38,10 @@ export default function Home({ darkMode, lang }: Props) {
           darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
         }`}
       >
-        <img src="/foto.jpg" className="w-32 h-32 rounded-full mx-auto" />
+        <img src="/biodata-hurin/src/assets/ai foto.jpg" className="w-32 h-32 rounded-full mx-auto" />
 
         <h1 className="text-2xl font-bold text-center mt-4">
-          Hurin Adhana Shakira
+          Hurin Adhana Syakira
         </h1>
 
         <p className="text-center mt-2">{current.desc}</p>
@@ -69,7 +69,7 @@ export default function Home({ darkMode, lang }: Props) {
             Email
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/hurinadhna._/"
             target="_blank"
             className="block text-blue-600"
           >
